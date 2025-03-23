@@ -4,7 +4,6 @@ public class IntLinkedList {
 
     private static final int EMPTY_RHYMER = -1;
     private Node last;
-    private int i;
 
     public void push(int value) {
         if (last == null)
