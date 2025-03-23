@@ -10,7 +10,15 @@ public class DefaultCountingOutRhymer {
 
     private int total = INITIAL_RHYMER;
 
-    public void countIn(int in) {
+    public int getTotal() {
+		return total;
+	}
+
+	public void setTotal(int total) {
+		this.total = total;
+	}
+
+	public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
     }
