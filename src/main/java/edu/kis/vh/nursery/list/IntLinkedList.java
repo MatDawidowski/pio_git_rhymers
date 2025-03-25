@@ -36,6 +36,7 @@ public class IntLinkedList {
         last = last.getPrev();
         return ret;
     }
+    // TODO: Usunięcie metod getNext(), setNext(), getPrev(), setPrev() (Są one zbędne, gdy klasa jest wewnętrzna)
     private class Node {
 
         private final int value;
